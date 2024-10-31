@@ -17,7 +17,7 @@ class UserController extends Controller
             function show(){
               $allget= DB::table('customers')->get();
                 return view('alluser',['data' => $allget]);
-
+              
                 
             }
 
